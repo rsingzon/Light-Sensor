@@ -2,6 +2,9 @@ import lejos.nxt.*;
 import lejos.nxt.comm.RConsole;
 import lejos.util.*;
 
+//Changed something
+
+
 public class LightTimer implements TimerListener{
 	
 	private final int REFRESH = 5;
@@ -56,6 +59,9 @@ public class LightTimer implements TimerListener{
 	//Sets sets line detection to false
 	public void resetLine(){
 		lineDetected = false;
+	}
+
+	public void test(){
 	}
 	
 }
